@@ -5,15 +5,15 @@ use ieee.numeric_std.all;
 entity runninglight is
 
 port (
-     clk:  in  std_logic := '0';
-     led1: out std_logic := '0';
-	 led2: out std_logic := '0';
-	 led3: out std_logic := '0';
-	 led4: out std_logic := '0';
-	 led5: out std_logic := '0';
-	 led6: out std_logic := '0';
-	 led7: out std_logic := '0';
-	 led8: out std_logic := '0'
+    clk:  in  std_logic := '0';
+    led1: out std_logic := '0';
+    led2: out std_logic := '0';
+    led3: out std_logic := '0';
+    led4: out std_logic := '0';
+    led5: out std_logic := '0';
+    led6: out std_logic := '0';
+    led7: out std_logic := '0';
+    led8: out std_logic := '0'
 );
 
 end runninglight;
